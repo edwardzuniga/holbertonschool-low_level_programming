@@ -1,3 +1,4 @@
+#!/bin/bash
 #include <stadio.h>
 int main (void)
 {
