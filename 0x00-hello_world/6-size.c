@@ -1,4 +1,3 @@
-//size of various types
 #include <stdio.h>
 
 /**
