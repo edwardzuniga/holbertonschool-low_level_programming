@@ -7,12 +7,10 @@
 
 int main(void)
 {
-char c = 'a';
-while (c <= 'z')
+char alpha;
+for (alpha = 'a'; alpha <= 'z'; alpha++)
 {
-putchar(c);
-c++;
-}
+putchar(alpha);
 putchar("\n");
 return (0);
 }
