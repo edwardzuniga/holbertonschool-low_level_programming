@@ -11,7 +11,7 @@ int undigit;
 for (undigit = '0'; undigit <= '9'; undigit++)
 {
 putchar (undigit);
-if (digit < '9')
+if (undigit < '9')
 }
 putchar (',');
 putchar (' ');
