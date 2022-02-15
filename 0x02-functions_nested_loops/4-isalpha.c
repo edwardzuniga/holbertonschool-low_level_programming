@@ -17,7 +17,7 @@ return (1);
 }
 for (chequeoM = 'a'; chequeoM <= 'z'; chequeoM++)
 {
-if (c == chequeo)
+if (c == chequeoM)
 return (1);
 }
 return (0);
