@@ -2,7 +2,6 @@
 
 /**
 * times_table - imprime la tabla de multiplicar del 9
-*
 * Return: value 0
 */
 
