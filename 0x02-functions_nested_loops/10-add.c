@@ -2,12 +2,12 @@
 
 /**
 * add - sume dos enteros
-* @x: valor one
-* @y: valor two
+* @a: valor one
+* @b: valor two
 * Return: resultado
 */
 
-int add(int x, int y)
+int add(int a, int b)
 {
-return (x + y);
+return (a + b);
 }
