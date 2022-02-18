@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* print_square - imprime un cuadro en la terminal
+* print_triangle - imprime un cuadro en la terminal
 * @size: init
 * Return: value 0
 */
