@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-* _pint_rev - imprime la cadena al reves
+* print_rev - imprime la cadena al reves
 * @s: la cadena
-* Return: value 0
+* Return: valie 0
 */
 
 void print_rev(char *s)
