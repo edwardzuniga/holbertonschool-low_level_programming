@@ -8,26 +8,17 @@
 
 void rev_string(char *s)
 {
-int a;
+int a = 0;
 int b;
-int temporal;
-int largo;
+char atras = s[0];
 
-while (s[a] != 0)
-{
+while (s[a] != '\0')
 a++;
-}
-
-largo = a;
-a = 0;
-b = largo - 1;
-
-while (a < b)
+for (b = 0; b < a; b++)
 {
-temporal = s[a];
-s[a] = s[b];
-s[b] = temporal;
-a++;
-b--;
+a--;
+atras = s[b];
+s[b] = s[a];
+s[a] = atras;
 }
 }
