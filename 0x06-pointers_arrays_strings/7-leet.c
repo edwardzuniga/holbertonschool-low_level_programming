@@ -10,8 +10,8 @@ char *leet(char *str)
 {
 int a = 0;
 int b;
-char x[] = "aAeEoOtTlL";
-char y[] = "4433007711";
+char x[11] = "aAeEoOtTlL";
+char y[11] = "4433007711";
 
 while (str[a] != '\0')
 {
