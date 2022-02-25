@@ -21,9 +21,9 @@ while (aport[b] != '\0')
 if (str[a] == aport[b])
 {
 str[a] = produ[b];
+break;
 }
 b++;
-break;
 }
 a++;
 }
