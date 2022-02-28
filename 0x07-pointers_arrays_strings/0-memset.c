@@ -14,7 +14,7 @@ unsigned int a = 0;
 
 while (a < n)
 {
-*s++ = b;
+s[a] = b;
 a++;
 }
 return (s);
