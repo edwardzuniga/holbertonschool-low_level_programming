@@ -14,7 +14,7 @@ unsigned int a = 0;
 
 while (a < n)
 {
-*dest++ = *src++;
+dest[a] = src[a];
 a++;
 }
 return (dest);
