@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
-* string_ncconcat - htrthth concatenates two strings.
+* string_ncconcat - concatenates two strings.
 * @s1: pointer
 * @s2: pointer
 * @n: int
