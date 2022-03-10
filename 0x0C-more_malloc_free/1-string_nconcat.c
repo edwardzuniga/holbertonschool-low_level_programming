@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
-* string_ncconcat - allocates memory using malloc
+* string_ncconcat -  concatenates two strings.
 * @s1: pointer
 * @s2: pointer
 * @n: int
