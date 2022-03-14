@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
-* print_dog - define a new type struct dog.
-* @d: parameter for name.
-* Return: parameter for owner.
+* print_dog - prints a struct dog.
+* @d: pointer.
+* Return: value 0.
 */
 
 void print_dog(struct dog *d)
