@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
-* struct dog - define a new type struct
+* init_dog - define a new type struct
 * @d: pointer
 * @name: element name
 * @age: element age
