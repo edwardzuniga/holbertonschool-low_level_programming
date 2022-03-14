@@ -14,7 +14,5 @@ if (d)
 free(d->name);
 free(d->owner);
 free(d);
-return (d);
- rfr
 }
 }
