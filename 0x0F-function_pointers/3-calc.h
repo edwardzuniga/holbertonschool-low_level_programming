@@ -1,6 +1,8 @@
 #ifndef CALCULATOR
 #define CALCULATOR
-
+#include <stdio.h>
+#include <stdlib.h>
+#include "function_pointers.h"
 /**
  * struct op - Struct op
  *
