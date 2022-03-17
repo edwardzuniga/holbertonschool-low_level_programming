@@ -20,11 +20,8 @@ op_t ops[] = {
 int i;
 i = 0;
 
-while (i < 5)
-{
-if (*s == *ops[i].op)
-return (*(ops[i]).f);
+while (ops[i].op != NULL && *(ops[i].op) != *s)
 i++;
-}
-return (NULL);
+
+return (ops[i].f);
 }
