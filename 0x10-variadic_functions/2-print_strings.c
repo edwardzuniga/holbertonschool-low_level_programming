@@ -22,7 +22,7 @@ if (p != NULL)
 printf("%s", p);
 
 else
-printf("(nill)");
+printf("(nil)");
 if (separator != NULL && a < n - 1)
 printf("%s", separator);
 }
