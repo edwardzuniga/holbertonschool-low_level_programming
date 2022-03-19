@@ -43,4 +43,5 @@ break;
 a++;
 }
 printf("\n");
+va_end(add);
 }
