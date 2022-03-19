@@ -19,7 +19,7 @@ va_start(add, format);
 while (format && format[b])
 b++;
 
-while (format && format[b])
+while (format && format[a])
 {
 
 if (a == (b - 1))
