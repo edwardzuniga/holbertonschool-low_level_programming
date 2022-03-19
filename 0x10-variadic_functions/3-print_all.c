@@ -9,18 +9,23 @@
 
 void print_all(const char * const format, ...)
 {
-int a;
+int a = 0, b = 0;
 char *string;
-char *area;
+char *area = ", ";
 va_list add;
 
 va_start(add, format);
-a = 0;
-while (format && format[a])
+
+while (format && format[b])
+b++;
+
+while (format && format[b])
+{
+
+if (a == (b - 1))
 {
 area = "";
-if (format[a] + 1)
-area = ", ";
+}
 switch (format[a])
 {
 
@@ -35,7 +40,7 @@ printf("%f%s", va_arg(add, double), area);
 break;
 case 's':
 string = va_arg(add, char *);
-if (!string || !*string)
+if (string == NULL)
 string = "(nil)";
 printf("%s%s", string, area);
 break;
