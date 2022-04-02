@@ -16,10 +16,10 @@ if (head == NULL)
 {
 return;
 }
-while (head != NULL)
+while (*head != NULL)
 {
 liberar = head;
-head = liberar->next;
+*head = liberar->next;
 free(liberar);
 }
 }
