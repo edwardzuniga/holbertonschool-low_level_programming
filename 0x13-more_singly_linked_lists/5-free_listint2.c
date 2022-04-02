@@ -18,7 +18,7 @@ return;
 }
 while (*head != NULL)
 {
-liberar = head;
+liberar = *head;
 *head = liberar->next;
 free(liberar);
 }
