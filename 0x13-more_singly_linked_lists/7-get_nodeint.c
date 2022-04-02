@@ -14,11 +14,11 @@ unsigned int count  = 0;
 
 while (head != NULL)
 {
-if (counter == index)
+if (count == index)
 {
 return (head);
 }
-counter++;
+count++;
 head = head->next;
 }
 return (NULL);
