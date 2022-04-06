@@ -25,7 +25,7 @@ return (-1);
 
 if (text_content == NULL)
 {
-text_content = "fails";
+text_content = "";
 }
 
 for (i = 0; text_content[i] != '\0'; i++)
