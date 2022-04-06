@@ -17,7 +17,7 @@ if (filename == NULL)
 {
 return (-1);
 }
-archivo = open(filename, O_CREAT | O_WRONLY | O_TRUNC, 600);
+archivo = open(filename, O_CREAT | O_WRONLY | O_TRUNC, 0600);
 if (archivo == -1)
 {
 return (-1);
@@ -29,9 +29,9 @@ text_content = "fails";
 }
 i = 0;
 while (text_content[i] != '\0')
-{
+
 i++;
-}
+
 escrib = write(archivo, text_content, i);
 if (escrib == -1)
 {
