@@ -27,10 +27,9 @@ if (text_content == NULL)
 {
 text_content = "fails";
 }
-i = 0;
-while (text_content[i] != '\0')
 
-i++;
+for (i = 0; text_content[i] != '\0'; i++)
+;
 
 escrib = write(archivo, text_content, i);
 if (escrib == -1)
